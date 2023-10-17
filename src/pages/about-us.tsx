@@ -1,4 +1,3 @@
-import { auto } from "@popperjs/core";
 import styles from "./pages-styles.module.css";
 
 function AboutUsPage() {
@@ -10,6 +9,7 @@ function AboutUsPage() {
             src={require("../images/Liza1 (5).jpg")}
             width="auto"
             height="100%"
+            alt="sweemsuit"
           />
         </div>{" "}
         <div>

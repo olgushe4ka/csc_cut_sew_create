@@ -17,6 +17,7 @@
   flex-direction: row;
   gap: 20px;
   justify-content: center;
+  
 }
 
 .slickSlide {
@@ -27,3 +28,10 @@
 .slickDots {
   bottom: 10px;
 }
+
+
+@media (max-width: 770px) {
+  .slickSlide {
+    max-height: 200px;
+    
+  }}

@@ -5,19 +5,13 @@ import {
   Contacnts,
   Portfolio,
 } from "../../pages/index";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  useLocation,
-} from "react-router-dom";
+import { Switch, Route, useLocation } from "react-router-dom";
 
 import AppHeader from "../app-header/app-header";
 
 import { Location } from "history";
 import PortfolioDetailPage from "../../pages/portfolio-detail";
 import AppFooter from "../app-footer/app-footer";
-
 
 function App() {
   const location = useLocation<{ background: Location }>();

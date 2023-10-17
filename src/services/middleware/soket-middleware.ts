@@ -1,8 +1,5 @@
 import { Middleware } from "redux";
 import { RootState } from "../../types";
-//import { TWSActions } from "../actions/web-soket";
-
-import { TWSListState } from "../reducers/web-soket";
 
 export type TWSActions = {
   wsConnect: string;
@@ -25,7 +22,7 @@ export const socketMiddleware = (
 
     return (next) => (action) => {
       const { dispatch } = store;
-      const { type, payload } = action;
+      const { type } = action;
 
       const {
         wsConnect,

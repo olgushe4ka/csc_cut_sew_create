@@ -4,16 +4,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import slide1 from "../../images/slider/Гостиная 1 (1).jpg";
-import slide2 from "../../images/slider/Гостиная 1 (4).jpg";
-import slide3 from "../../images/slider/Гостиная 1 (5).jpg";
-
 const settings = {
   dots: true,
   infinite: true,
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
+  autoplay: true, 
+  autoplaySpeed: 3000, 
 };
 
 function SliderMain() {

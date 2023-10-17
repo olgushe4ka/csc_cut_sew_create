@@ -3,7 +3,7 @@ import styles from "./pages-styles.module.css";
 import { FaInstagram, FaWhatsapp, FaTelegram, FaPhone } from "react-icons/fa";
 
 function Contacnts() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>

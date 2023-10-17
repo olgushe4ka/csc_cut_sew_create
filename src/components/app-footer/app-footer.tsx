@@ -1,4 +1,4 @@
-import { FaInstagram, FaPhone, FaTelegram, FaWhatsapp } from "react-icons/fa";
+import { FaPhone, FaTelegram, FaWhatsapp } from "react-icons/fa";
 import styles from "./app-footer.module.css";
 
 function AppFooter() {

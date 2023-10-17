@@ -1,15 +1,6 @@
 import { combineReducers } from "redux";
 
-// import { loginReducer } from "./login";
 import {
-  // wsConnect,
-  // wsDisconnect,
-  // wsConnecting,
-  // wsOpen,
-  // wsClose,
-  // wsMessage,
-  // wsError,
-
   LIVE_ORDER_FEED_CONNECT,
   LIVE_ORDER_FEED_DISCONNECT,
   LIVE_ORDER_FEED_WS_CONNECTING,
@@ -17,7 +8,6 @@ import {
   LIVE_ORDER_FEED_WS_CLOSE,
   LIVE_ORDER_FEED_WS_MESSAGE,
   LIVE_ORDER_FEED_WS_ERROR,
-  TWSActions,
 } from "../actions/web-soket";
 import { socketMiddleware } from "../middleware/soket-middleware";
 import { liveOrderFeedReducer } from "./web-soket";
