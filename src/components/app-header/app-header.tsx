@@ -67,7 +67,7 @@ function AppHeader() {
           <p className={`${headerStyles.menuText}`}>{t("header.about")}</p>
         </Link>
         <Link
-          to="/portfolio"
+          to="/сollection"
           className={`${headerStyles.menu} ${
             activePage === "Портфолио" ? headerStyles.active : ""
           }`}

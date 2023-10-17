@@ -25,13 +25,13 @@ function App() {
         <Route path="/" exact={true}>
           <MainPage />
         </Route>
-        <Route path="/portfolio" exact={true}>
+        <Route path="/сollection" exact={true}>
           <Portfolio />
         </Route>
         <Route path="/contacnts" exact={true}>
           <Contacnts />
         </Route>
-        <Route path="/portfolio/:photoId" component={PortfolioDetailPage} />
+        <Route path="/сollection/:photoId" component={PortfolioDetailPage} />
         <Route path="/about" exact={true}>
           <AboutUsPage />
         </Route>
