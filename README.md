@@ -1,4 +1,4 @@
-https://olgushe4ka.github.io/portfolio/
+https://olgushe4ka.github.io/csc_cut_sew_create/
 
 
 
