@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .aboutusText{
+    max-width: 1500px;
+    padding: 25px;
+  }

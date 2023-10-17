@@ -1,0 +1,13 @@
+{
+    "header.home": "Главная",
+    "header.about": "О нас",
+    "header.portfolio": "Портфолио",
+    "header.contacts": "Контакты",
+
+    "contacts.header": "Контакты",
+    "contacts.adress": "Аланья, ул. Строителей, 12",
+    "contacts.telephone": "Телефон:",
+    "contacts.callus": "Свяжитесь с нами:",
+    "contacts.call": "Позвонить"
+
+  }
