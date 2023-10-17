@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/csc_cut_sew_create/static/css/main.89fbf443.css",
+    "main.css": "/csc_cut_sew_create/static/css/main.dfc8ac28.css",
     "main.js": "/csc_cut_sew_create/static/js/main.d9cc9987.js",
     "static/js/787.2b4cbca8.chunk.js": "/csc_cut_sew_create/static/js/787.2b4cbca8.chunk.js",
     "static/media/slide1.jpg": "/csc_cut_sew_create/static/media/slide1.5b5d01a66c2265f68bf4.jpg",
@@ -13,12 +13,12 @@
     "static/media/slick.ttf": "/csc_cut_sew_create/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/csc_cut_sew_create/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/csc_cut_sew_create/index.html",
-    "main.89fbf443.css.map": "/csc_cut_sew_create/static/css/main.89fbf443.css.map",
+    "main.dfc8ac28.css.map": "/csc_cut_sew_create/static/css/main.dfc8ac28.css.map",
     "main.d9cc9987.js.map": "/csc_cut_sew_create/static/js/main.d9cc9987.js.map",
     "787.2b4cbca8.chunk.js.map": "/csc_cut_sew_create/static/js/787.2b4cbca8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89fbf443.css",
+    "static/css/main.dfc8ac28.css",
     "static/js/main.d9cc9987.js"
   ]
 }
