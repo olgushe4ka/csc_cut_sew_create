@@ -8,5 +8,11 @@
   "contacts.adress": "Alanya, Builders St., 12",
   "contacts.telephone": "Phone:",
   "contacts.callus": "Call Us:",
-  "contacts.call": "Call"
+  "contacts.call": "Call",
+
+    "main.title": "SOME_TEXT",
+    "main.text1": "The company \"Cut Sew Create\" is a true master of creating swimsuits and swimwear inspired by the beauty of the sea and nature. We specialize in producing high-quality beachwear that combines style, comfort, and functionality.",
+    "main.text2": "Our designers and tailors pay special attention to details to ensure that each swimsuit and costume reflects the individual style and needs of our clients. We take pride in our work and aim to make swimming and sunbathing at the beach even more enjoyable and fashionable. Whether you need a swimsuit for competitive swimming, beach leisure, or a trendy resort look, \"Cut Sew Create\" guarantees that you will look confident and fabulous in every season."
+
+
 }

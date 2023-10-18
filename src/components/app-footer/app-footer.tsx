@@ -1,4 +1,4 @@
-import { FaPhone, FaTelegram, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaPhone, FaTelegram, FaWhatsapp } from "react-icons/fa";
 import styles from "./app-footer.module.css";
 
 function AppFooter() {
@@ -11,6 +11,12 @@ function AppFooter() {
           <a className={styles.contactpageContacts} href="tel:+79215575528">
             <FaPhone /> +7 903 388 36 01
           </a>
+          <a
+                className={styles.contactpageContacts}
+                href="https://www.instagram.com/csc_cut_sew_create/"
+              >
+                <FaInstagram /> Instagram
+              </a>
           <a
             className={styles.contactpageContacts}
             href="https://wa.me/79215575528?text=What%about%20в%swimsuit"
