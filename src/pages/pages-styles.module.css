@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   padding: 30px;
+
 }
 
 .aboutusMain {
@@ -13,6 +14,7 @@
 }
 .aboutus {
   padding: 30px;
+  min-height: 65vh;
 }
 
 .aboutusImg {
@@ -41,9 +43,9 @@
   display: flex;
   margin: auto;
   flex-direction: column;
-  justify-content: center;
   padding: 50px;
   max-width: 300px;
+  min-height: 65vh;
 }
 
 .contactpageLocation {
