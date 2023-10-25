@@ -39,7 +39,7 @@ function AppHeader() {
   return (
     <header className={`${headerStyles.header} pl-15 pr-15 pb-0 pt-0`}>
       <div className={`${headerStyles.boxLang}`}>
-      <select 
+        <select
           value={i18n.language}
           onChange={(e) => changeLanguage(e.target.value)}
           className={headerStyles.languageSelect}

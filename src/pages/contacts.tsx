@@ -6,9 +6,8 @@ function Contacnts() {
   const { t } = useTranslation();
 
   return (
-    <>
+    <div className={styles.contactpageMain}>
       <div className={`${styles.contactpage} `}>
-        {" "}
         <div>
           <h2 className={styles.contactpageH2}>{t("contacts.header")}</h2>
           <div className={styles.contactpageLocation}>
@@ -18,8 +17,8 @@ function Contacnts() {
           <div>
             <strong>{t("contacts.telephone")}</strong>
             <a className={styles.contactpageContacts} href="tel:+79215575528">
-            &nbsp;  + 7 921 557 55 28
-              </a>
+              &nbsp; + 7 921 557 55 28
+            </a>
           </div>
           <br />
           <br />
@@ -55,8 +54,8 @@ function Contacnts() {
             </p>
           </div>
         </div>
-      </div>{" "}
-    </>
+      </div>
+    </div>
   );
 }
 

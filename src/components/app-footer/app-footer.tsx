@@ -12,11 +12,11 @@ function AppFooter() {
             <FaPhone /> +7 903 388 36 01
           </a>
           <a
-                className={styles.contactpageContacts}
-                href="https://www.instagram.com/csc_cut_sew_create/"
-              >
-                <FaInstagram /> Instagram
-              </a>
+            className={styles.contactpageContacts}
+            href="https://www.instagram.com/csc_cut_sew_create/"
+          >
+            <FaInstagram /> Instagram
+          </a>
           <a
             className={styles.contactpageContacts}
             href="https://wa.me/79215575528?text=What%about%20в%swimsuit"

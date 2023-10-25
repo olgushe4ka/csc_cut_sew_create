@@ -12,7 +12,7 @@ export type TWSActions = {
 };
 
 export const socketMiddleware = (
-  wsActions: TWSActions
+  wsActions: TWSActions,
 ): Middleware<{}, RootState> => {
   return (store) => {
     let socket: any = null;
@@ -37,7 +37,6 @@ export const socketMiddleware = (
       if (type === wsConnect) {
         url = action.payload;
 
-
         socket = new WebSocket(url);
         isConnected = true;
         // dispatch(wsConnecting());
@@ -45,7 +44,6 @@ export const socketMiddleware = (
           type: wsConnecting,
         });
       }
-
 
       if (socket) {
         socket.onopen = () => {

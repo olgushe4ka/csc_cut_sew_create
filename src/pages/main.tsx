@@ -9,9 +9,9 @@ function MainPage() {
       <div className={`${styles.main}`}>
         <SliderMain />
         <p className={`${styles.aboutusText}`}>
-        {t("main.title")} <br /> <br />
-        {t("main.text1")} <br /> <br />
-        {t("main.text2")}
+          {t("main.title")} <br /> <br />
+          {t("main.text1")} <br /> <br />
+          {t("main.text2")}
           <br /> <br /> <br />
           <br />
         </p>

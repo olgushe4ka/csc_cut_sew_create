@@ -41,7 +41,8 @@
 .contactpage {
   display: flex;
   margin: auto;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 50px;
   padding: 50px;
   max-width: 300px;
   min-height: 65vh;
@@ -60,6 +61,15 @@
 
 .contactpageContacts:hover {
   color: blueviolet;
+}
+
+.contactsImg img {
+  max-width: 500px;
+  max-height: 600px;
+}
+
+.contactsImg {
+  margin-top: 25px;
 }
 
 .portfolio {

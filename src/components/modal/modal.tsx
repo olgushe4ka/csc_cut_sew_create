@@ -41,7 +41,7 @@ const Modal = ({ title, closeAllModals, children }: TModal) => {
       </div>
       <ModalOverlay closeModal={closeAllModals} />
     </>,
-    modalsContainer
+    modalsContainer,
   );
 };
 

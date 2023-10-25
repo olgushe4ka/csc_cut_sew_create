@@ -8,7 +8,11 @@ function Portfolio() {
       <h2>Портфолио</h2>
       <div className={styles.portfolioImages}>
         {portfolioInfo.map((item, index) => (
-          <Link to={`/сollection/${item.id}`} key={item.id} style={{ textDecoration: 'none' }}>
+          <Link
+            to={`/сollection/${item.id}`}
+            key={item.id}
+            style={{ textDecoration: "none" }}
+          >
             <div className={`${styles.portfolioImage} ${styles.hoverOpacity}`}>
               <img src={item.mainFoto} alt={item.title} />
               <p className={styles.portfolioTitle}>{item.title}</p>

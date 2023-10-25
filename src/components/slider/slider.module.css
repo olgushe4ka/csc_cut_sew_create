@@ -17,21 +17,18 @@
   flex-direction: row;
   gap: 20px;
   justify-content: center;
-  
 }
 
 .slickSlide {
   max-height: 500px;
-  
 }
 
 .slickDots {
   bottom: 10px;
 }
 
-
 @media (max-width: 770px) {
   .slickSlide {
     max-height: 200px;
-    
-  }}
+  }
+}

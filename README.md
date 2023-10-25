@@ -1,8 +1,5 @@
 https://olgushe4ka.github.io/csc_cut_sew_create/
 
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

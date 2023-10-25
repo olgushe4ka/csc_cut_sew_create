@@ -13,7 +13,6 @@ import { socketMiddleware } from "../middleware/soket-middleware";
 import { liveOrderFeedReducer } from "./web-soket";
 
 export const rootReducer = combineReducers({
-  
   ws: liveOrderFeedReducer,
 });
 

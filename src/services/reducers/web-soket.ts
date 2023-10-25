@@ -22,7 +22,7 @@ const initialState: TWSListState = {
 
 export const liveOrderFeedReducer = (
   state = initialState,
-  action: TWSActions
+  action: TWSActions,
 ): TWSListState => {
   switch (action.type) {
     case LIVE_ORDER_FEED_WS_CONNECTING: {

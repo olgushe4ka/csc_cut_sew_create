@@ -33,7 +33,7 @@ function ForgotPassword() {
 
   function resetPassword(
     inputValue: string,
-    event: FormEvent<HTMLFormElement>
+    event: FormEvent<HTMLFormElement>,
   ): void {
     throw new Error("Function not implemented.");
   }
